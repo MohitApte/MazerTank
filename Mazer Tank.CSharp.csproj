@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BCDCDE5-D58B-59F3-6556-9230AF15B757}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Mazer Tank.CSharp.Plugins.csproj">
+      <Project>{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}</Project>
+      <Name>Mazer Tank.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Fireworks\Scripts\Demo\SmoothCameraOrbit.cs" />
+    <Compile Include="Assets\MLM Loading Screens Addon\Scripts\LoadingScreen.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\Box.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\Instruction.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\LoseScript.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelLoadingBar.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelLoadingScreen.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelQueryExample.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelTesterController.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelTesterOption.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\MadLevelYouAreHereScript.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\ResetProfileScript.cs" />
+    <Compile Include="Assets\Mad Level Manager\Examples\Stuff\Scripts\WinPointsScript.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Attributes.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Background\MadLevelBackgroundLayer.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\IMadLevelProfileBackend.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Layouts\MadLevelAbstractLayout.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Layouts\MadLevelFreeLayout.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Layouts\MadLevelGridBullets.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Layouts\MadLevelGridLayout.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\Layouts\MadLevelLayout.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnim.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnimColor.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnimMove.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnimRotate.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnimScale.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadAnimator.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadFollow.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevel.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelAnimator.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelBackground.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelConfiguration.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelExtension.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelHelp.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelIcon.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelImage.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelInputControl.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelProfile.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelProfileBufferedBackend.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelProfileWatcher.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelProperty.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelPropertyCondition.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelPropertyText.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelQuery.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelRoot.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelScene.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Base\MadLevelSettings.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadAnchor.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadAnimation.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadAtlas.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadBigMeshRenderer.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadDragStopDraggable.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadDraggable.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadDrawCall.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadDrawing.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadEvent.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadFont.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadFontData.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadFreeDraggable.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadMaterialStore.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadNode.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadObject.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadPanel.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadPlayAudioClip.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadRootNode.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadShaders.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadSprite.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadText.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\Mad2D\MadiTween.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadDebug.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadGameObject.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadHashCode.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadList.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadMath.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadMatrix.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadNaturalSortComparer.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadObjectPool.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadScreen.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadTransform.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadTrial.cs" />
+    <Compile Include="Assets\Mad Level Manager\Scripts\MadCommons\MadUndo.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Barrel_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Break_Object_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Bullet_Nav_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Camera_Rotate_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Camera_Zoom_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Cannon_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Delete_Timer_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Fire_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Fire_Spawn_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\GunCamera_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\ID_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\SE_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Touchpad_BugFixed_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Touchpad_Target_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Track_Deform_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Track_Scroll_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Turret_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Unity_51_Patch_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Wheel_Control_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Wheel_Rotate_CS.cs" />
+    <Compile Include="Assets\Packages\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Wheel_Sync_CS.cs" />
+    <Compile Include="Assets\Scripts\AudioMaster.cs" />
+    <Compile Include="Assets\Scripts\Coin_Rotation.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\GoToMainMenu.cs" />
+    <Compile Include="Assets\Scripts\LV3\CoinCollect03.cs" />
+    <Compile Include="Assets\Scripts\LV3\GoToLevel4.cs" />
+    <Compile Include="Assets\Scripts\LV3\HitRespawn.cs" />
+    <Compile Include="Assets\Scripts\LV3\ScoreCheck03.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MainMenuButton.cs" />
+    <Compile Include="Assets\Scripts\PatrolPoints.cs" />
+    <Compile Include="Assets\Scripts\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Trap.cs" />
+    <Compile Include="Assets\Scripts\bgMusic.cs" />
+    <Compile Include="Assets\Scripts\lvl1\CoinCollect01.cs" />
+    <Compile Include="Assets\Scripts\lvl1\GOTOLEVEL2.cs" />
+    <Compile Include="Assets\Scripts\lvl1\ScoreCheck01.cs" />
+    <Compile Include="Assets\Scripts\lvl1\WallHitRespawn.cs" />
+    <Compile Include="Assets\Scripts\lvl2\Coin_Collect02.cs" />
+    <Compile Include="Assets\Scripts\lvl2\Go_Level3.cs" />
+    <Compile Include="Assets\Scripts\lvl2\Score_Check02.cs" />
+    <Compile Include="Assets\Scripts\lvl2\WallSpike_Hit.cs" />
+    <Compile Include="Assets\Scripts\lvl4\BrickHit.cs" />
+    <Compile Include="Assets\Scripts\lvl4\CoinCollect04.cs" />
+    <Compile Include="Assets\Scripts\lvl4\GoToLevel5.cs" />
+    <Compile Include="Assets\Scripts\lvl4\ScoreCheck04.cs" />
+    <Compile Include="Assets\Scripts\lvl4\WallHit.cs" />
+    <Compile Include="Assets\Scripts\lvl5\DestroyBullet.cs" />
+    <Compile Include="Assets\Scripts\lvl5\GoToLevel6.cs" />
+    <Compile Include="Assets\Scripts\lvl5\Health.cs" />
+    <Compile Include="Assets\Scripts\lvl5\HealthDecreaseForEnemy.cs" />
+    <Compile Include="Assets\Scripts\lvl5\HealthDecreaseForPlayer.cs" />
+    <Compile Include="Assets\Scripts\lvl5\HitDestructionForEnemy.cs" />
+    <Compile Include="Assets\Scripts\lvl5\HitDestructionForPlayer.cs" />
+    <Compile Include="Assets\Scripts\lvl5\PlayerLookAt.cs" />
+    <Compile Include="Assets\Scripts\lvl5\RestartLevel.cs" />
+    <Compile Include="Assets\Scripts\lvl5\ShootWithStartDelay.cs" />
+    <Compile Include="Assets\Scripts\lvl5\TankAI.cs" />
+    <Compile Include="Assets\Scripts\lvl5\TankShoot.cs" />
+    <Compile Include="Assets\Scripts\lvl5\WinLoseManager.cs" />
+    <Compile Include="Assets\Scripts\lvl5doesnotexist\CoinCollect05.cs" />
+    <Compile Include="Assets\Scripts\lvl5doesnotexist\GoToLevel6.cs" />
+    <Compile Include="Assets\Scripts\lvl5doesnotexist\HitRespawn05.cs" />
+    <Compile Include="Assets\Scripts\lvl5doesnotexist\ScoreCheck05.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\DestroyBullet.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\EnemyAIlvl6.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\EnemySpawn1.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\GoToLevel7.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\HealthDecreaseForEnemy.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\HealthDecreaseForPlayer.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\PatrolAndShoot.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\Respawn.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\SpawnGiantTank.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\TankShoot.cs" />
+    <Compile Include="Assets\Scripts\lvl6proper\WallSpikeHitRespawn.cs" />
+    <Compile Include="Assets\Scripts\lvl7\CoinCounter07.cs" />
+    <Compile Include="Assets\Scripts\lvl7\Coin_Collect07.cs" />
+    <Compile Include="Assets\Scripts\lvl7\CoinsNotCollected.cs" />
+    <Compile Include="Assets\Scripts\lvl7\CompletedLevel.cs" />
+    <Compile Include="Assets\Scripts\lvl7\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\lvl7\HealthDecreaseForPlayer.cs" />
+    <Compile Include="Assets\Scripts\lvl7\HealthDecreseForEnemy.cs" />
+    <Compile Include="Assets\Scripts\lvl7\PlatformWait.cs" />
+    <Compile Include="Assets\Scripts\lvl7\PlayerFire.cs" />
+    <Compile Include="Assets\Scripts\lvl7\SpawnEnemies.cs" />
+    <Compile Include="Assets\Scripts\lvl7\TankWall.cs" />
+    <Compile Include="Assets\Scripts\lvl7\TurnIntoANonTrigger.cs" />
+    <Compile Include="Assets\Scripts\lvl7\WallTrapHitRespawn.cs" />
+    <Compile Include="Assets\Scripts\lvl7\movingPlatform.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fireworks\Fireworks - Readme.txt" />
+    <None Include="Assets\Fireworks\Scripts\C# Scripts\- IMPORTANT - Version Change Readme.txt" />
+    <None Include="Assets\Fireworks\Scripts\Simple Particle Scale\Simple Particle Scale - Readme.txt" />
+    <None Include="Assets\MLM Loading Screens Addon\Fonts\ChunkFive\ChunkFive.txt" />
+    <None Include="Assets\MLM Loading Screens Addon\Fonts\ChunkFive\SIL Open Font License.txt" />
+    <None Include="Assets\MLM Loading Screens Addon\Fonts\Titillium\SIL Open Font License.txt" />
+    <None Include="Assets\MLM Loading Screens Addon\Fonts\Titillium\Titillium Bitmap Font.txt" />
+    <None Include="Assets\MLM Loading Screens Addon\README.txt" />
+    <None Include="Assets\Mad Level Manager\Examples\Example 5 - Unity 5\README.txt" />
+    <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo New\SIL OFL Font License Boogaloo.txt" />
+    <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo New\boogaloo.txt" />
+    <None Include="Assets\Mad Level Manager\Examples\Stuff\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
+    <None Include="Assets\Mad Level Manager\README.TXT" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font DB.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font White DB.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font White.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\Font.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTint DB.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTint.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTintPre DB.shader" />
+    <None Include="Assets\Mad Level Manager\Scripts\Mad2D\Resources\Shaders\UnlitTransparentTintPre.shader" />
+    <None Include="Assets\Mad Level Manager\Themes\Theme1\Fonts\font.txt" />
+    <None Include="Assets\Mad Level Manager\Themes\Theme2\Font\abeezee-glyphs.txt" />
+    <None Include="Assets\Mad Level Manager\Themes\Theme2\Font\abeezee-license.txt" />
+    <None Include="Assets\Packages\Kawaii_Tanks_Project\ReadMe.txt" />
+    <None Include="Assets\Packages\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
+    <None Include="Assets\Packages\sky5X\README.txt" />
+    <None Include="Assets\Packages\trap3\badfluid@gmail.com.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazer Tank.CSharp.Plugins", "Mazer Tank.CSharp.Plugins.csproj", "{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazer Tank.CSharp", "Mazer Tank.CSharp.csproj", "{0BCDCDE5-D58B-59F3-6556-9230AF15B757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazer Tank.CSharp.Editor", "Mazer Tank.CSharp.Editor.csproj", "{6B046BBD-1658-9736-93F1-5F282BA9B831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532DE1DE-2C31-F58F-FE9C-C90771BFC06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCDCDE5-D58B-59F3-6556-9230AF15B757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCDCDE5-D58B-59F3-6556-9230AF15B757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCDCDE5-D58B-59F3-6556-9230AF15B757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCDCDE5-D58B-59F3-6556-9230AF15B757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B046BBD-1658-9736-93F1-5F282BA9B831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B046BBD-1658-9736-93F1-5F282BA9B831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B046BBD-1658-9736-93F1-5F282BA9B831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B046BBD-1658-9736-93F1-5F282BA9B831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
